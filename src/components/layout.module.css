@@ -15,6 +15,7 @@
 
 .nav {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 200px 200px;
 	font-size: 1.3rem;
+	justify-content: space-between;
 }

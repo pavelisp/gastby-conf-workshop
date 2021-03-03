@@ -1,5 +1,5 @@
 import * as React from "react"
-import { title, layoutType, nav } from '../components/layout.module.css'
+import { * } from '../components/layout.module.css'
 import { Link } from "gatsby"
 
 const Layout = ( {children} ) => {
