@@ -14,19 +14,18 @@
 }
 
 .nav {
-	display: grid;
-	width: 500px;
-	grid-template-columns: 200px 200px;
 	font-size: 1.3rem;
 	gap: 10px;
+	margin-top: 20px;
 }
 
 .navLinks {
+	margin-right: 10px;
+	border-radius: 5px;
 	text-decoration: none;
 	font-family: monospace;
 	padding: 10px 20px;
 	font-weight: bold;
-	color: rebeccapurple;
-	background-color:yellow;
-	border: 1px solid orange;
+	color: yellow;
+	background-color:rebeccapurple;
 }

@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Pavlov Log",
+    title: "I'm using VS Code now...",
+    description: "I won't show this to my co-workers"
   },
   plugins: [
 `gatsby-plugin-image`,
