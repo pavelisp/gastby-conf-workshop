@@ -8,7 +8,7 @@ const Layout = ( {children} ) => {
 	<div className={layoutType}>
 		<nav className="nav">
 			<Link to='/'> Go back home </Link>
-			<Link to='/about'> Pavel's Abouts </Link>
+			<Link to='/About'> Pavel's Abouts </Link>
 		</nav>
 
 		<h1 className={ title }> Layout Loaded successfully </h1>
