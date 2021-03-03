@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from '../components/Layout.js'
 
-const About = () => {
+const about = () => {
   return (
 	  <Layout>
   <h1>I'm learning VIM as I do this, so this is going really slow! EXTREME! </h1>
@@ -10,4 +10,4 @@ const About = () => {
 
 }
 
-export default About 
+export default about 
