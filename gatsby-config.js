@@ -2,5 +2,9 @@ module.exports = {
   siteMetadata: {
     title: "Pavlov Log",
   },
-  plugins: [],
+  plugins: [
+`gatsby-plugin-image`,
+	      `gatsby-plugin-sharp`,
+	      `gatsby-transformer-sharp`,
+  ],
 };
