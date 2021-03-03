@@ -1,5 +1,5 @@
 import * as React from "react"
-import  { LayoutType, nav, title } from '../components/layout.module.css'
+import  { LayoutType, nav, title, navLinks } from '../components/layout.module.css'
 import { Link } from "gatsby"
 
 const Layout = ( {children} ) => {
@@ -11,7 +11,7 @@ const Layout = ( {children} ) => {
 			<Link to="/about"> Pavel's Abouts </Link>
 		</nav>
 
-		<h1 className={ title }> Layout Loaded successfully </h1>
+		<h1 className={ title }>  </h1>
 		{ children }
 	</div>
 )

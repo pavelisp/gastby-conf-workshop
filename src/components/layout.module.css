@@ -15,7 +15,16 @@
 
 .nav {
 	display: grid;
+	width: 500px;
 	grid-template-columns: 200px 200px;
 	font-size: 1.3rem;
 	justify-content: space-between;
+}
+
+.navLinks {
+	padding: 10px 20px;
+	font-weight: bold;
+	color: rebeccapurple;
+	background-color:yellow;
+	border: 1px solid orange;
 }
