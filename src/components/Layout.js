@@ -1,5 +1,5 @@
 import * as React from "react"
-import  { LayoutType, nav, title, navLinks } from '../components/layout.module.css'
+import  { layoutType, nav, title, navLinks } from '../components/layout.module.css'
 import { Link, useStaticQuery, graphql } from "gatsby"
 
 const Layout = ( {children} ) => {
@@ -15,10 +15,11 @@ const Layout = ( {children} ) => {
 	  }`)
 
 	return (
-	<div className={ LayoutType }>
+	<div className={ layoutType }>
 		<nav className={nav}>
 			<Link className={navLinks} to="/"> Go back home </Link>
 			<Link className={navLinks} to="/about"> Pavel's Abouts </Link>
+			<Link className={navLinks} to="/blog"> Blog </Link>
 		</nav>
 
 		<h1 className={ title }> Pavel gave up on VIM </h1>
