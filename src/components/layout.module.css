@@ -18,10 +18,12 @@
 	width: 500px;
 	grid-template-columns: 200px 200px;
 	font-size: 1.3rem;
-	justify-content: space-between;
+	gap: 10px;
 }
 
 .navLinks {
+	text-decoration: none;
+	font-family: monospace;
 	padding: 10px 20px;
 	font-weight: bold;
 	color: rebeccapurple;
