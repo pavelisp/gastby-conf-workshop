@@ -1,4 +1,21 @@
+.layoutType {
+	font-size: 1rem;
+	font-family: monospace;
+}
+
 .title {
 	color: royalblue;
 	font-size: 3.124rem;
+}
+
+.secondaryTitle {
+	font-size: 0.8rem;
+}
+
+.nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	font-size: 1.3rem;
+	
 }

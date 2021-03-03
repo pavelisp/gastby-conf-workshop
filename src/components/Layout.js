@@ -1,11 +1,17 @@
 import * as React from "react"
-import { title } from '../components/layout.module.css'
+import { title, layoutType, nav } from '../components/layout.module.css'
+import { Link } from "gatsby"
 
 const Layout = ( {children} ) => {
 
 	return (
-	<div className={ title }>
-		<h1> Layout Loaded successfully </h1>
+	<div className={layoutType}>
+		<nav className='nav'>
+			<Link to='/'> Go back home </Link>
+			<Link to='/about'> Pavel's Abouts </Link>
+		</nav>
+
+		<h1 className={ title }> Layout Loaded successfully </h1>
 		{ children }
 	</div>
 )
