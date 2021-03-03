@@ -5,8 +5,8 @@ import { Link } from "gatsby"
 const Layout = ( {children} ) => {
 
 	return (
-	<div className={layoutType}>
-		<nav className="nav">
+	<div className={ layoutType }>
+		<nav className={nav}>
 			<Link to='/'> Go back home </Link>
 			<Link to='/About'> Pavel's Abouts </Link>
 		</nav>
